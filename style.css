@@ -114,10 +114,53 @@ h2{
 .author{
     font-size: 36px;
     font-style: italic;
-    font-weight: 300;
+    font-weight: 200;
     color: #1F2937;
 }
 .author{
     font-weight: 800;
     align-self: flex-end;
+}
+/*---------Call to action---------*/
+.call-action{
+    display: flex;
+    justify-content: center;
+    margin: 100px 250px;
+}
+.sign-up{
+    background-color: #3882F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding: 32px 150px;
+    border-radius: 8px;
+}
+.sign-up button{
+    background-color: none;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 8px 32px;
+    border-style: none;
+    border-radius: 8px;
+    border: 5px solid #F9FAF8;
+}
+h3{
+    font-size: 36px;
+    font-weight: 800;
+    color: #F9FAF8;
+    margin: 0;
+}
+.sign-up p{
+    font-size: 18px;
+    color: #F9FAF8;
+    margin: 0;
+}
+/*---------Footer---------*/
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 250px;
+    color: #F9FAF8;
 }
