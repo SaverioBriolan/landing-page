@@ -71,7 +71,7 @@ button{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 32px 250px;
+    padding: 60px 250px 120px 250px;
     align-items: center;
 }
 h2{
@@ -79,7 +79,7 @@ h2{
     font-weight: 800;
     color: #1F2937;
     margin: 0;
-    margin-bottom: 32px;
+    margin-bottom: 60px;
 }
 .infos{
     display: flex;
@@ -101,4 +101,23 @@ h2{
     border-radius: 16px;
     border:  5px solid #3882F6;
 }
-
+/*---------Testimonial---------*/
+.testimonial{
+    background-color: #E5E7EB;
+    padding: 200px 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.texte,
+.author{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1F2937;
+}
+.author{
+    font-weight: 800;
+    align-self: flex-end;
+}
