@@ -28,14 +28,14 @@ a{
 .logo{
     font-size: 24px;
     color: #F9FAF8;
-    padding: 32px 0;
+    padding: 16px 0;
     font-weight: 700;
 }
 .links{
     display: flex;
     gap: 32px;
     font-size: 18px;
-    padding: 32px 0;
+    padding: 16px 0;
 }
 /*---------Presentation---------*/
 .presentation{
@@ -66,3 +66,39 @@ button{
     border-style: none;
     border-radius: 8px;
 }
+/*---------Information---------*/
+.informations{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 32px 250px;
+    align-items: center;
+}
+h2{
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    margin: 0;
+    margin-bottom: 32px;
+}
+.infos{
+    display: flex;
+    gap: 64px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.info p{
+    width: 160px;
+    color: #474747;
+}
+.info img{
+    width: 150px;
+    height: 150px;
+    border-radius: 16px;
+    border:  5px solid #3882F6;
+}
+
