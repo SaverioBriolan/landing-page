@@ -2,12 +2,16 @@ body{
     font-family: 'Roboto', sans-serif;
     margin: 0;
 }
+/*---------Header---------*/
+
 .header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 250px;
 }
 .header,
+.presentation,
 .footer{
     background-color: #1F2937;
 }
@@ -24,11 +28,41 @@ a{
 .logo{
     font-size: 24px;
     color: #F9FAF8;
-    padding: 32px;
+    padding: 32px 0;
+    font-weight: 700;
 }
 .links{
     display: flex;
     gap: 32px;
     font-size: 18px;
-    padding: 32px;
+    padding: 32px 0;
+}
+/*---------Presentation---------*/
+.presentation{
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+    padding: 128px 250px 128px 250px;
+}
+h1{
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+#presentation-text{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+#img-presentation{
+    height: 300px;
+}
+button{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 8px 32px;
+    border-style: none;
+    border-radius: 8px;
 }
